@@ -22,22 +22,6 @@
         <glassfish.domain.name>domain1</glassfish.domain.name>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>snapshot-repository.java.net</id>
-            <name>Java.net Snapshot Repository for Maven</name>
-            <url>https://maven.java.net/content/repositories/staging/</url>
-            <layout>default</layout>
-        </repository>
-        <repository>
-            <id>releases-repository.java.net</id>
-            <name>Java.net releases Repository for Maven</name>
-            <url>https://maven.java.net/content/repositories/releases/</url>
-            <layout>default</layout>
-        </repository>
-    </repositories>
-
-
     <build>
         <finalName>${artifactId}</finalName>
 
